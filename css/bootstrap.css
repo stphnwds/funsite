@@ -64,6 +64,7 @@ dfn {
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
+  cursor: default;
 }
 mark {
   background: #ff0;
@@ -6570,3 +6571,9 @@ a.list-group-item-danger.active:focus {
   text-decoration: line-through;
   color: #c00;
 } 
+span{
+  cursor: default;
+}
+p{
+  cursor: default;
+}
