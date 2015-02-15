@@ -4387,12 +4387,14 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   position: relative;
   float: left;
   padding: 10px 15px;
+  padding-left: 10px;
   line-height: 1.42857143;
   text-decoration: none;
   color: #ffffff;
   background-color: #18bc9c;
   border: 1px solid transparent;
   margin-left: -1px;
+  cursor: default;
 }
 .pagination > li:first-child > a,
 .pagination > li:first-child > span {
@@ -4439,6 +4441,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pagination-lg > li > a,
 .pagination-lg > li > span {
   padding: 18px 27px;
+  padding-left: 10px;
   font-size: 19px;
 }
 .pagination-lg > li:first-child > a,
@@ -4454,11 +4457,13 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pagination-sm > li > a,
 .pagination-sm > li > span {
   padding: 6px 9px;
+  padding-left: 10px;
   font-size: 13px;
 }
 .pagination-sm > li:first-child > a,
 .pagination-sm > li:first-child > span {
   border-bottom-left-radius: 3px;
+  padding-left: 10px;
   border-top-left-radius: 3px;
 }
 .pagination-sm > li:last-child > a,
@@ -4479,6 +4484,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pager li > span {
   display: inline-block;
   padding: 5px 14px;
+  padding-left: 10px;
   background-color: #18bc9c;
   border: 1px solid transparent;
   border-radius: 15px;
@@ -6560,3 +6566,7 @@ a.list-group-item-danger.active:focus {
 .popover {
   color: #2c3e50;
 }
+.checked{
+  text-decoration: line-through;
+  color: #c00;
+} 
